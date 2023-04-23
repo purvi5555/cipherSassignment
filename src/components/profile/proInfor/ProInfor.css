@@ -1,0 +1,30 @@
+select option:checked {
+  background-color: transparent;
+}
+
+select option[value="Graduation"]:checked,
+select option[value="Primary"]:checked,
+select option[value="Secondary"]:checked,
+select option[value="Higher Secondary"]:checked,
+select option[value="Post Graduation"]:checked,
+
+select option[value="Schooling"]:checked,
+select option[value="College Student"]:checked,
+select option[value="Teaching"]:checked,
+select option[value="Job"]:checked,
+select option[value="Freelancing"]:checked {
+  background-color: #f97316;
+}
+
+/* 
+select option:hover {
+    background-color: #f5ce35;
+  }
+  
+  select option[value="Graduation"]:hover,
+  select option[value="Graduation"]:hover,
+  select option[value="Secondary"]:hover,
+  select option[value="Higher Secondary"]:hover,
+  select option[value="Post Graduation"]:hover {
+    background-color: #F59E0B;
+  } */

@@ -1,0 +1,29 @@
+.banner-container {
+    animation: animate 50s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url(../../../assets/banner/banner0.png);
+        opacity: 0.8;
+    }
+
+    25% {
+        background-image: url(../../../assets/banner/banner1.png);
+        opacity: 0.8;
+    }
+
+    50% {
+        background-image: url(../../../assets/banner/banner2.png);
+        opacity: 0.8;
+    }
+
+    75% {
+        background-image: url(../../../assets/banner/banner3.png);
+        opacity: 0.8;
+    }
+}

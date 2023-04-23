@@ -1,0 +1,43 @@
+/* Colors for the contribution levels */
+.color-github-0 {
+    fill: #ebedf0;
+  }
+  .color-github-1 {
+    fill: #9be9a8;
+  }
+  .color-github-2 {
+    fill: #40c463;
+  }
+  .color-github-3 {
+    fill: #30a14e;
+  }
+  .color-github-4 {
+    fill: #216e39;
+  }
+  
+/* Style for the weekday labels */
+.react-calendar-heatmap .react-calendar-heatmap-small-text {
+    font-size: 10px;
+    font-weight: 400;
+    fill: #666;
+    text-anchor: middle;
+  }
+
+/* Style for the tooltip */
+.react-calendar-heatmap .react-calendar-heatmap-tooltip {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 2px;
+    padding: 10px;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+/* Style for the empty squares */
+.color-empty {
+    fill: #fff;
+  }
+        
